@@ -1,0 +1,27 @@
+{
+  "name": "@nicco/pi-searxng",
+  "version": "0.1.0",
+  "description": "Pi agent extension for private web search via SearXNG",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./pi-searxng.ts"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicco/pi-searxng.git"
+  },
+  "scripts": {
+    "lint": "echo \"Linting...\""
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "~5.0.0"
+  },
+  "main": "./pi-searxng.ts",
+  "type": "module",
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
